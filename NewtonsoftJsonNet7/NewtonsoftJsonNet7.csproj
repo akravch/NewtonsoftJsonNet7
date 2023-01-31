@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <ApplicationId>com.companyname.NewtonsoftJsonNet7</ApplicationId>
+        <ApplicationVersion>1</ApplicationVersion>
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <Configurations>No trimming;Partial;Full;Full with root descriptor;Full with root assembly</Configurations>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'No trimming'">
+        <RunAOTCompilation>false</RunAOTCompilation>
+        <PublishTrimmed>false</PublishTrimmed>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Partial'">
+        <RunAOTCompilation>true</RunAOTCompilation>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>partial</TrimMode>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Full' Or '$(Configuration)' == 'Full with root descriptor' Or '$(Configuration)' == 'Full with root assembly'">
+        <RunAOTCompilation>true</RunAOTCompilation>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>full</TrimMode>
+    </PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)' == 'Full with root descriptor'">
+        <TrimmerRootDescriptor Include="TrimmerRoots.xml" />
+    </ItemGroup>
+    <ItemGroup Condition="'$(Configuration)' == 'Full with root assembly'">
+        <TrimmerRootAssembly Include="System.Private.CoreLib" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    </ItemGroup>
+</Project>

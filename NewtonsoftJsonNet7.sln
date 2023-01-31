@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewtonsoftJsonNet7", "NewtonsoftJsonNet7\NewtonsoftJsonNet7.csproj", "{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		No trimming|Any CPU = No trimming|Any CPU
+		Partial|Any CPU = Partial|Any CPU
+		Full|Any CPU = Full|Any CPU
+		Full with root descriptor|Any CPU = Full with root descriptor|Any CPU
+		Full with root assembly|Any CPU = Full with root assembly|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.No trimming|Any CPU.ActiveCfg = No trimming|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.No trimming|Any CPU.Build.0 = No trimming|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.No trimming|Any CPU.Deploy.0 = No trimming|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Partial|Any CPU.ActiveCfg = Partial|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Partial|Any CPU.Build.0 = Partial|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Partial|Any CPU.Deploy.0 = Partial|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full|Any CPU.ActiveCfg = Full|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full|Any CPU.Build.0 = Full|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full|Any CPU.Deploy.0 = Full|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root descriptor|Any CPU.ActiveCfg = Full with root descriptor|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root descriptor|Any CPU.Build.0 = Full with root descriptor|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root descriptor|Any CPU.Deploy.0 = Full with root descriptor|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root assembly|Any CPU.ActiveCfg = Full with root assembly|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root assembly|Any CPU.Build.0 = Full with root assembly|Any CPU
+		{57D2D6F4-D542-4C8C-BAF7-ED5CF1244142}.Full with root assembly|Any CPU.Deploy.0 = Full with root assembly|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65BC4020-4697-442A-A428-4B7CE881F4E0}
+	EndGlobalSection
+EndGlobal
